@@ -42,15 +42,15 @@
     }
   ],
   "ports": {
-    "8485/tcp": 8485,
-    "8099/tcp": null
+    "9485/tcp": 9485,
+    "9099/tcp": null
   },
   "ports_description": {
-    "8485/tcp": "Socat tcp-listen port",
-    "8099/tcp": "Frontend tcp-listen port"
+    "9485/tcp": "Socat tcp-listen port",
+    "9099/tcp": "Frontend tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt",
+    "data_path": "/config/zigbee2mqtt-vanhanit",
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
